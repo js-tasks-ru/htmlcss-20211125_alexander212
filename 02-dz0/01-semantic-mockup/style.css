@@ -1,0 +1,38 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: brown;
+  padding: 20px;
+}
+
+nav {
+  background-color: coral;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  list-style: none;
+}
+
+
+main {
+  background-color: darkcyan;
+  padding: 20px;
+}
+
+article {
+  background-color: darkgoldenrod;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: darkorchid;
+  padding: 20px;
+  font-size: 32px;
+}
