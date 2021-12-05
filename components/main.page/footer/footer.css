@@ -1,0 +1,13 @@
+@import "./footer__about/about.css";
+
+.footer {
+  margin-top: auto;
+}
+
+.footer__box {
+  width: 1110px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 71px 0 136px 0;
+}

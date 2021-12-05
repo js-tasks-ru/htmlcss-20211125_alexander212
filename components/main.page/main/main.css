@@ -1,0 +1,15 @@
+@import './main__preview/preview.css';
+
+.main {
+  flex-grow: 2;
+  background-color: #F9FAFC;
+  border-top: 1px solid var(--grey-2);
+  border-bottom: 1px solid var(--grey-2);
+}
+
+.main__box {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 67px 0 204px 0;
+  box-sizing: border-box;
+}

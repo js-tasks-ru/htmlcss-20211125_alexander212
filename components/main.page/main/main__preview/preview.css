@@ -1,0 +1,24 @@
+.preview {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  color: var(--black);
+}
+
+.preview__item {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  min-height: 367px;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.preview__title {
+  margin-top: auto;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 500;
+}
