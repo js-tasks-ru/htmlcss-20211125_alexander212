@@ -2,6 +2,7 @@
 @import '../../components/main.page/wrapper/wrapper.css';
 @import '../../components/main.page/header/header.css';
 @import '../../components/main.page/main/main.css';
+@import '../../components/main.page/main/main__preview/preview.css';
 @import '../../components/main.page/footer/footer.css';
 
 :root {
@@ -15,6 +16,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);

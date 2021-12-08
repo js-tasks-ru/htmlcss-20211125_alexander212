@@ -1,8 +1,6 @@
-@import './main__preview/preview.css';
-
 .main {
   flex-grow: 2;
-  background-color: #F9FAFC;
+  background-color: var(--grey-5);
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
 }

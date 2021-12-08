@@ -1,13 +1,33 @@
-@import "./footer__about/about.css";
-
 .footer {
   margin-top: auto;
+  text-align: center;
+  color: var(--black);
 }
 
 .footer__box {
   width: 1110px;
+  width: 640px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
   padding: 71px 0 136px 0;
+}
+
+
+.footer__title {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  margin: 0 0 32px 0;
+}
+
+.footer__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+
 }
