@@ -1,18 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .accordion {
   width: 600px;
-  margin: 0 auto;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
 }
 
 .accordion__item {
-  display: block;
   position: relative;
-  margin-bottom: 8px;
   border: 1px solid var(--grey-3);
   border-radius: 8px;
-}
-
-.accordion__item:last-child {
-  margin: 0;
 }
 
 .accordion:last-child {
@@ -27,6 +28,7 @@
   line-height: 24px;
   cursor: pointer;
   padding: 24px 32px;
+  font-family: 'Inter', sans-serif;
 }
 
 .accordion__summary::before {
@@ -53,6 +55,7 @@
 .accordion__content {
   margin: 0;
   padding: 32px;
+  font-family: 'Inter', sans-serif;;
 }
 
 .accordion__item[open] .accordion__content {
