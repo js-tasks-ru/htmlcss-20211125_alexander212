@@ -1,14 +1,11 @@
 .footer {
-  margin-top: auto;
   text-align: center;
   color: var(--black);
 }
 
 .footer__box {
-  width: 1110px;
   width: 640px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   margin: 0 auto;
   padding: 71px 0 136px 0;
