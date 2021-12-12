@@ -1,6 +1,6 @@
 .preview {
   display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  grid-template: 367px 367px / 350px 350px 350px;
   grid-gap: 30px;
   color: var(--black);
 }
@@ -9,28 +9,32 @@
   display: flex;
   flex-direction: column;
   width: 350px;
+  padding-bottom: 32px;
   box-sizing: border-box;
   background-color: var(--white);
   border-radius: 12px;
   text-align: center;
 }
 
-.preview__item_histogram {
-  padding: 60px 25px 32px 25px;
+.preview__item-header {
+  order: 2;
 }
 
-.preview__title {
+.preview__component-box {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview__item-title {
   margin: 0 0 8px 0;
   font-size: 21px;
   line-height: 24px;
   font-weight: 500;
 }
 
-.preview__title_histogram {
-  margin-top: 67px;
-}
-
-.preview__sub-title {
+.preview__item-sub-title {
   font-size: 16px;
   line-height: 18.75px;
 }
