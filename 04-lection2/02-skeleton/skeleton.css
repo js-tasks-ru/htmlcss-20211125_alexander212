@@ -1,6 +1,6 @@
 .skeleton {
   display: flex;
-  flex-wrap: wrap ;
+  flex-direction: column;
   width: 100%;
   padding: 24px;
   box-sizing: border-box;
@@ -26,31 +26,29 @@
   background-color: var(--grey-2);
 }
 
-
-.skeleton__title {
+.skeleton__line {
   display: block;
   height: 20px;
-  width: 40%;
-  margin: 8px 0 0 0;
   background-color: var(--grey-2);
+  margin: 8px 0 0 0;
 }
 
-.skeleton__subtitle {
-  display: block;
-  height: 20px;
+.skeleton__line_title {
+  width: 40%;
+}
+
+.skeleton__line_subtitle {
   width: 65%;
-  margin: 8px 0 0 0;
-  background-color: var(--grey-2);
 }
 
 .skeleton__content-box {
   width: 100%;
 }
 
-.skeleton__content {
-  display: block;
-  height: 20px;
+.skeleton__line_content {
   width: 100%;
-  background-color: var(--grey-2);
-  margin: 0 0 8px 0;
+}
+
+.skeleton__line_content:first-child {
+  margin: 0;
 }
