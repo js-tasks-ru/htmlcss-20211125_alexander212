@@ -6,7 +6,7 @@
   border-radius: 8px;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .histogram__header {
@@ -43,12 +43,13 @@
   display: flex;
   gap: 1px;
   align-items: flex-end;
-  min-height: 50px;
+  height: 50px;
+  min-height: 50px;;
   width: 100%;
+  flex-grow: 1;
 }
 
 .histogram__item {
-  height: 100%;
   flex-grow: 1;
   background-color: var(--blue);
 }
