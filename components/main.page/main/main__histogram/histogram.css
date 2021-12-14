@@ -7,7 +7,7 @@
   border-radius: 8px;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   text-align: left;
 }
 
@@ -45,12 +45,12 @@
   display: flex;
   gap: 1px;
   align-items: flex-end;
+  height: 3.125em;
   min-height: 3.125em;
   width: 100%;
 }
 
 .histogram__item {
-  height: 100%;
   flex-grow: 1;
   background-color: var(--blue);
 }
