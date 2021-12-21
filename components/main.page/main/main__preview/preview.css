@@ -1,6 +1,6 @@
 .preview {
   display: grid;
-  grid-template: 367px 367px / 350px 350px 350px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 30px;
   color: var(--black);
 }
@@ -8,7 +8,7 @@
 .preview__item {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  min-height: 367px;
   padding-bottom: 32px;
   box-sizing: border-box;
   background-color: var(--white);
